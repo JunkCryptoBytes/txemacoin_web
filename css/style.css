@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.poster-title {
+	position: absolute !important;
+	font-family: 'Monoton', cursive;
+	color: red;
+	font-size: 7em;
+	letter-spacing: 0.05em;
+	top: 69% !important;
+	width: 100%;
+	text-align: center;
+}
+.poster-date {
+	position: absolute !important;
+	color: #f2f2f2;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 0.05em;
+	top: 91% !important;
+	width: 100%;
+	text-align: center;	
+}
+.poster-image {
+	position: absolute !important;
+	height: 112%;
+	width: 113%;
+	top: -6% !important;
+	left: -6% !important;
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9) ), url(../background.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.poster-image-overlay {
+	position: absolute !important;
+	height: 100%;
+	width: 100%;
+	background: rgb(0, 0, 0);
+	background-size: 18%;
+	left: 0%;
+	background-attachment: fixed;
+	background-position: center center;
+	opacity: 0.5;
+}
+
+.poster {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.poster-red {
+	color: red;
+}
+
+
+
+@media screen and (max-width: 742px) {
+	.poster-title {
+		position: absolute !important;
+		font-family: 'Monoton', cursive;
+		color: red;
+		font-size: 5em;
+		letter-spacing: 0.05em;
+		top: 69% !important;
+		width: 100%;
+		text-align: center;
+	}
+	.poster-date {
+		position: absolute !important;
+		color: #f2f2f2;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 1.6em;
+		letter-spacing: 0.05em;
+		top: 86% !important;
+		width: 100%;
+		text-align: center;	
+	}
+}
+
+@media screen and (max-width: 531px) {
+	.poster-title {
+		position: absolute !important;
+		font-family: 'Monoton', cursive;
+		color: red;
+		font-size: 3.5em;
+		letter-spacing: 0.05em;
+		top: 59% !important;
+		width: 100%;
+		text-align: center;
+	}
+	.poster-date {
+		position: absolute !important;
+		color: #f2f2f2;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 1.4em;
+		letter-spacing: 0.05em;
+		top: 73% !important;
+		width: 100%;
+		text-align: center;	
+	}
+}
+
+
+@media screen and (max-width: 423px) {
+	.poster-date {
+		position: absolute !important;
+		color: #f2f2f2;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 1.6em;
+		letter-spacing: 0.05em;
+		top: 90% !important;
+		width: 100%;
+		text-align: center;	
+	}
+}
