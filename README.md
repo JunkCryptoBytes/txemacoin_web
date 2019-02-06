@@ -1,4 +1,4 @@
 Txemacoin Web
 ================================
 
-http://txemacoin.uk.to
+https://txemacoin.vithar.me
